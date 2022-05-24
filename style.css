@@ -1,0 +1,107 @@
+.container {
+    text-align: center;
+    /* margin-top: 30px; */
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    margin: auto;
+}
+
+input {
+    font-size: 34px;
+    /* padding: 10px; */
+    width: 400px;
+    margin: 15px 0px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+button {
+    font-size: 28px;
+    /* border: 1px solid black; */
+    /* padding: 15px 24px; */
+    width: 80px;
+    height: 58px;
+    margin: 5px;
+    border-radius: 20px;
+    box-shadow: 2px 2px grey;
+}
+
+button:hover {
+    background-color: silver;
+}
+
+.calculator {
+    display: inline-block;
+    padding: 25px;
+    background-color: rgb(169, 188, 204);
+    border-radius: 15px;
+}
+
+#f1 {
+    font-size: 25px;
+}
+
+
+@media screen and (max-width: 490px) {
+
+    body {
+        background-color: rgb(169, 188, 204);
+    }
+    
+    .container {
+        text-align: center;
+        /* display: block; */
+        /* margin-top: 30px; */ 
+        /* width: 80vw; */
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    h1 {
+        font-size: 50px;
+        margin: 0;
+        padding: 0;
+        justify-content: center; 
+    }
+
+    input {
+        font-size: 35px;
+        /* padding: 10px; */
+        width: 300px;
+        margin: 15px 0px;
+        border: 3px solid black;
+        border-radius: 10px;
+        justify-content: center; 
+    }
+
+    button {
+        font-size: 21px;
+        /* border: 1px solid black; */
+        /* padding: 15px 24px; */
+        width: 67px;
+        height: 50px;
+        margin: 5px;
+        border-radius: 15px;
+        box-shadow: 2px 2px grey;
+        justify-content: center; 
+    }
+
+    .calculator {
+        display: inline-block;
+        padding: 25px;
+        background-color: rgb(169, 188, 204);
+        border-radius: 0px;
+        justify-content: center;
+    }
+
+    #f1 {
+        font-size: 20px;
+    }
+}
